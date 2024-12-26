@@ -6,4 +6,4 @@ httpd: httpd.c
 client: simpleclient.c
 	gcc -W -Wall -o $@ $<
 clean:
-	rm -f httpd
+	rm -f httpd && echo YES
